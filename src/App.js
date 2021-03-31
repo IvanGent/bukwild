@@ -54,7 +54,6 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      Hello, Is this working???
       <Route path='/industries'>
         <Marquee info={pages[0].blocks[0]} />
       </Route>
