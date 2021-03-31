@@ -7,9 +7,9 @@ body {
   .HeadAndSub {
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
+    /* background-color: red; */
     padding-top: 5rem;
   }
 
-  
+
 }
