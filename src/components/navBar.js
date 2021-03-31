@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Menu from './Menu';
 
 function NavBar() {
     return (
         <div>
-            The Nav Bar is up
+            <logo></logo>
+            <Menu />
         </div>
     )
 }

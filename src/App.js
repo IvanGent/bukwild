@@ -2,7 +2,7 @@
 // import './App.css';
 import React, { useState } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import NavBar from './components/navBar';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
 
       </Route>
       <Route path='/aboutUs'>
-        
+
       </Route>
     </BrowserRouter>
   );
