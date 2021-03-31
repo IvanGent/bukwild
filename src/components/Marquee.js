@@ -8,13 +8,14 @@ function Marquee({info}) {
 
     const style = {
         backgroundImage: `url(/images/${info.background})`,
-        backgroundPosition: 'left top',
-        paddingTop: '19.5rem',
+        // backgroundPosition: 'left top',
+        // paddingTop: '19.5rem',
         minHeight: '100vh',
     }
 
     const contentStyle = {
-        padding: '0 8.125rem'
+        // padding: '0 8.125rem'
+        maxWidth: '1440px'
     }
 
     const headingStyle = {

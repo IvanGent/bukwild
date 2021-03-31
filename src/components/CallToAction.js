@@ -3,10 +3,14 @@ import React from 'react';
 function CallToAction({cta}) {
 
     const style = {
+        position: 'absolute',
+        bottom: '0',
+        left: '8.125rem',
+        right: '8.125rem',
         width: '73.75rem',
         height: '11.188rem',
         margin: '2.938rem 0 0 0.188rem',
-        padding: '4.625rem 8.5rem 4.563rem 4.813rem',
+        // padding: '4.625rem 8.5rem 4.563rem 4.813rem',
         backgroundColor: 'white',
         display: 'flex',
     }
