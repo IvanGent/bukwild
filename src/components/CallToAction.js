@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Style for Call To Action container
 const style = {
     height: '11.188rem',
     margin: '0 10%',
@@ -10,6 +10,7 @@ const style = {
     justifyContent: 'space-around',
 }
 
+// Style for the actual Call To Action content
 const ctaStyle = {
     fontFamily: 'HelveticaNeue',
     fontSize: '1.5rem',
@@ -21,6 +22,7 @@ const ctaStyle = {
     color: 'black'
 }
 
+// Style for the lets talk
 const letsTalkStyle = {
     height: '1.25rem',
     margin: '0.063rem 0',
