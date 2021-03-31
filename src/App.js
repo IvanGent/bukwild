@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Marquee from './components/Marquee';
 import NavBar from './components/NavBar';
 
-let state = {
+let pages = {
 	"pages": [
 		{
 			"title": "Industries",
@@ -49,19 +49,23 @@ let state = {
 
 
 function App() {
-  const [pages, setPages] = useState(state.pages);
+  const state = useState(pages.pages);
+
+  useEffect(() => {
+	  console.log(state);
+  })
 
   return (
     <BrowserRouter>
       <NavBar />
       <Route path='/industries'>
-        <Marquee info={pages[0].blocks[0]} />
+        <Marquee info={state[0][0].blocks[0]} />
       </Route>
       <Route path='/services'>
-        <Marquee info={pages[1].blocks[0]} />
+        <Marquee info={state[0][1].blocks[0]} />
       </Route>
       <Route path='/aboutUs'>
-        <Marquee info={pages[2].blocks[0]} />
+        <Marquee info={state[0][2].blocks[0]} />
       </Route>
     </BrowserRouter>
   );

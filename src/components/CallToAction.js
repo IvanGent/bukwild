@@ -3,22 +3,22 @@ import React from 'react';
 function CallToAction({cta}) {
 
     const style = {
-        position: 'absolute',
-        bottom: '0',
-        left: '8.125rem',
-        right: '8.125rem',
+        // position: 'absolute',
+        // bottom: '0',
+        // left: '8.125rem',
+        // right: '8.125rem',
         // width: '73.75rem',
         height: '11.188rem',
         margin: '2.938rem 0 0 0.188rem',
         backgroundColor: 'white',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
     }
 
     const ctaStyle = {
-        position: 'absolute',
-        left: '4.183rem',
-        top: '4.625rem',
+        // position: 'absolute',
+        paddingLeft: '4.183rem',
+        // top: '4.625rem',
         width: '30.188rem',
         height: '2rem',
         margin: '0 13.75rem 0 0',

@@ -13,21 +13,33 @@ function Marquee({info}) {
     }
 
     const contentStyle = {
-        // maxWidth: '1440px'
+        // maxWidth: '1440px',
+        backgroundColor: 'red',
+        height: '100vh',
+        width: '100%',
+        display: 'flex',
+        // flexDirection: 'column-reverse',
+        flexDirection: 'column',
+        // justifyContent: 'center'
+        justifyContent: 'space-between',
+        // justifyContent: 'space-around',
+        // alignContent: 'space-between',
+        // alignItems: 'space-between',
+        // justifyItems: 'space-between'
     }
 
     const headingStyle = {
-        position: 'absolute',
-        top: '17rem',
+        // position: 'absolute',
+        // top: 'rem',
+        // marginRight: '4rem',
+        height: '100%',
         display: 'flex',
-        width: '100%',
-        // paddingTop: '14%',
-        justifyContent: 'space-around',
+        width: '86%',
+        justifySelf: 'center',
+        alignSelf: 'center',
+        // justifyContent: 'space-around',
+        justifyContent: 'space-between',
         alignItems: 'center',
-        // maxWidth: '1440px',
-        // padding: ' 0 8.125rem',
-        // margin: '0 8.125rem',
-        // backgroundColor: 'red',
     }
 
     return (
