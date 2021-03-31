@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+import Headline from './Headline';
+
 
 function Marquee() {
+
+    useEffect(() =>{
+        console.log();
+    })
+
     return (
-        <div></div>
+        <div>
+            <Headline />
+            {/* <SubHead />
+            <CallToAction /> */}
+        </div>
     )
 }
 

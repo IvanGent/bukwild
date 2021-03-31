@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
+import Marquee from './components/Marquee';
 import NavBar from './components/NavBar';
 
 let state = {
@@ -48,19 +49,20 @@ let state = {
 
 
 function App() {
-  const [pages, setPages] = useState(state);
+  const [pages, setPages] = useState(state.pages);
+
   return (
     <BrowserRouter>
       <NavBar />
       Hello, Is this working???
       <Route path='/industries'>
-
+        <Marquee info={pages[0].blocks[0]} />
       </Route>
       <Route path='/services'>
-
+        <Marquee info={pages[1].blocks[1]} />
       </Route>
       <Route path='/aboutUs'>
-
+        <Marquee info={pages[2].blocks[2]} />
       </Route>
     </BrowserRouter>
   );
