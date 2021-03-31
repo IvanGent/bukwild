@@ -11,6 +11,8 @@ function Marquee({info}) {
     const style = {
         backgroundImage: `url(/images/${info.background})`,
         backgroundPosition: 'left top',
+        paddingTop: '19.5rem',
+        minHeight: '100vh',
     }
 
     return (

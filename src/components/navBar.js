@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 
 const style = { 
-    // position: 'absolute',
+    position: 'absolute',
 }
 
 function NavBar() {
