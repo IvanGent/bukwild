@@ -2,9 +2,10 @@ import React from 'react';
 import Menu from './Menu';
 
 const NavBarStyle = { 
-    position: 'absolute',
-    minWidth: '100vw',
-    maxWidth: '1440px',
+    // position: 'absolute',
+    // display: 'flex',
+    // minWidth: '100vw',
+    // maxWidth: '1440px',
     // padding: '0 8.125rem',
     // margin: '1.179rem 8.125rem 0 8.125rem',
     // marginTop: '1.179rem',

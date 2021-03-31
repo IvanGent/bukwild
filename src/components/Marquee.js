@@ -14,7 +14,7 @@ function Marquee({info}) {
 
     const contentStyle = {
         // maxWidth: '1440px',
-        backgroundColor: 'red',
+        // backgroundColor: 'red',
         height: '100vh',
         width: '100%',
         display: 'flex',
@@ -22,10 +22,6 @@ function Marquee({info}) {
         flexDirection: 'column',
         // justifyContent: 'center'
         justifyContent: 'space-between',
-        // justifyContent: 'space-around',
-        // alignContent: 'space-between',
-        // alignItems: 'space-between',
-        // justifyItems: 'space-between'
     }
 
     const headingStyle = {
