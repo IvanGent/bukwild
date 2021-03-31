@@ -14,15 +14,16 @@ function CallToAction({cta}) {
         backgroundColor: 'white',
         display: 'flex',
         alignItems: 'center',
+        justifyContent: 'space-around',
     }
 
     const ctaStyle = {
         // position: 'absolute',
-        paddingLeft: '4.183rem',
+        // paddingLeft: '4.183rem',
         // top: '4.625rem',
-        width: '30.188rem',
-        height: '2rem',
-        margin: '0 13.75rem 0 0',
+        // width: '30.188rem',
+        // height: '2rem',
+        // margin: '0 13.75rem 0 0',
         fontFamily: 'HelveticaNeue',
         fontSize: '1.5rem',
         fontWeight: 'bold',
@@ -34,9 +35,9 @@ function CallToAction({cta}) {
     }
 
     const letsTalkStyle = {
-        position: 'absolute',
-        right: '8.546rem',
-        width: '16.454rem',
+        // position: 'absolute',
+        // right: '8.546rem',
+        // width: '16.454rem',
         height: '1.25rem',
         margin: '0.063rem 0',
         fontFamily: 'HelveticaNeue',
@@ -50,9 +51,9 @@ function CallToAction({cta}) {
     }
 
     return (
-        <div style={style}>
+        <div className='callToAction' style={style}>
             <div style={ctaStyle}>{cta}</div>
-            <div style={letsTalkStyle}>LET'S TALK.</div>
+            <div className='letsTalk' style={letsTalkStyle}>LET'S TALK.</div>
         </div>
     )
 }

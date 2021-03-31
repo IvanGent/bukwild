@@ -3,6 +3,11 @@ body {
   box-sizing: border-box;
 }
 
+.letsTalk::after {
+  content: " ➡";
+  color: '#ffc004'
+}
+
 @media screen and (max-width: 900px) {
   .HeadAndSub {
     display: flex;
@@ -10,6 +15,10 @@ body {
     /* background-color: red; */
     padding-top: 5rem;
   }
-
+  
+  .callToAction {
+    flex-direction: column;
+    
+  }
 
 }
