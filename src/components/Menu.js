@@ -2,6 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const style = {
+    position: 'absolute',
+    left: '8.125rem',
+    top: '4.5rem',
     width: '4.563rem',
     height: '4.875rem',
     fontFamily: 'HelveticaNeue',
