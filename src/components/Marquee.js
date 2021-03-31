@@ -13,11 +13,23 @@ function Marquee({info}) {
         minHeight: '100vh',
     }
 
+    const contentStyle = {
+        padding: '0 8.125rem'
+    }
+
+    const headingStyle = {
+        display: 'flex'
+    }
+
     return (
         <div style={style}>
-            <Headline head={info.headline} />
-            <SubHead sub={info.subhead} />
-            <CallToAction cta={info.cta} />
+            <div style={contentStyle}>
+                <div style={headingStyle}>
+                    <Headline head={info.headline} />
+                    <SubHead sub={info.subhead} />
+                </div>
+                <CallToAction cta={info.cta} />
+            </div>
         </div>
     )
 }

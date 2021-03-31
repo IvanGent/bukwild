@@ -7,7 +7,8 @@ function CallToAction({cta}) {
         height: '11.188rem',
         margin: '2.938rem 0 0 0.188rem',
         padding: '4.625rem 8.5rem 4.563rem 4.813rem',
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        display: 'flex',
     }
 
     const ctaStyle = {
