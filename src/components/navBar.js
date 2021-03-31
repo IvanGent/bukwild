@@ -8,7 +8,7 @@ const style = {
 function NavBar() {
     return (
         <div style={style}>
-            {/* <logo></logo> */}
+            <img src={'./images/abc_logo.svg'} alt='Logo' />
             <Menu />
         </div>
     )
