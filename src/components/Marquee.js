@@ -34,11 +34,11 @@ function Marquee({info}) {
         // marginRight: '4rem',
         height: '100%',
         display: 'flex',
-        width: '86%',
+        width: '100%',
         justifySelf: 'center',
         alignSelf: 'center',
-        // justifyContent: 'space-around',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
+        // justifyContent: 'space-between',
         alignItems: 'center',
     }
 
