@@ -13,9 +13,8 @@ const style = {
     lineHeight: '1.86',
     letterSpacing: 'normal',
     color: 'white',
-    backgroundColor: 'gray',
     display: 'flex',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
 }
 
 const active = {
