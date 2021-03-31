@@ -24,10 +24,24 @@ function CallToAction({cta}) {
         color: 'black'
     }
 
+    const letsTalkStyle = {
+        width: '16.454rem',
+        height: '1.25rem',
+        margin: '0.063rem 0',
+        fontFamily: 'HelveticaNeue',
+        fontSize: '0.688rem',
+        fontWeight: '500',
+        fontStretch: 'normal',
+        fontStyle: 'normal',
+        lineHeight: '1.82',
+        letterSpacing: '1px',
+        color: 'black',
+    }
+
     return (
         <div style={style}>
             <div style={ctaStyle}>{cta}</div>
-            <div>LET'S TALK.</div>
+            <div style={letsTalkStyle}>LET'S TALK.</div>
         </div>
     )
 }
