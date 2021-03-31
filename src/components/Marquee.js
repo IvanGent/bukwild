@@ -4,8 +4,6 @@ import SubHead from './SubHead';
 import CallToAction from './CallToAction';
 
 
-
-
 function Marquee({info}) {
 
     const style = {
