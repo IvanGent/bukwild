@@ -7,15 +7,18 @@ function CallToAction({cta}) {
         bottom: '0',
         left: '8.125rem',
         right: '8.125rem',
-        width: '73.75rem',
+        // width: '73.75rem',
         height: '11.188rem',
         margin: '2.938rem 0 0 0.188rem',
-        // padding: '4.625rem 8.5rem 4.563rem 4.813rem',
         backgroundColor: 'white',
         display: 'flex',
+        alignItems: 'center'
     }
 
     const ctaStyle = {
+        position: 'absolute',
+        left: '4.183rem',
+        top: '4.625rem',
         width: '30.188rem',
         height: '2rem',
         margin: '0 13.75rem 0 0',
@@ -30,6 +33,8 @@ function CallToAction({cta}) {
     }
 
     const letsTalkStyle = {
+        position: 'absolute',
+        right: '8.546rem',
         width: '16.454rem',
         height: '1.25rem',
         margin: '0.063rem 0',
