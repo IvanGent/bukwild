@@ -5,14 +5,15 @@ const NavBarStyle = {
     position: 'absolute',
     minWidth: '100vw',
     maxWidth: '1440px',
-    padding: '0 8.125rem',
+    // padding: '0 8.125rem',
     // margin: '1.179rem 8.125rem 0 8.125rem',
-    marginTop: '1.179rem',
-    display: 'flex',
-    justifyContent: 'space-between'
+    // marginTop: '1.179rem',
+    // display: 'flex',
+    // justifyContent: 'space-between'
 }
 
 const imageStyle = {
+    position: 'absolute',
     width: '4.728rem',
     height: '2.363rem',
     marginBottom: '0.958rem',
@@ -20,6 +21,7 @@ const imageStyle = {
 }
 
 const ContactButton = {
+    position: 'absolute',
     width: '8.625rem',
     height: '1.125rem',
     padding: '0.75rem 0.063rem 0.75rem 0',
@@ -33,6 +35,8 @@ const ContactButton = {
     letterSpacing: 'normal',
     textAlign: 'center',
     color: 'white',
+    right: '8.125rem',
+    top: '1.563rem',
 }
 
 function NavBar() {
