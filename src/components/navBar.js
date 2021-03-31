@@ -14,6 +14,8 @@ const NavBarStyle = {
 
 const imageStyle = {
     position: 'absolute',
+    left: '8.104rem',
+    top: '1.179rem',
     width: '4.728rem',
     height: '2.363rem',
     marginBottom: '0.958rem',
