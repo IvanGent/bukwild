@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Marquee from './components/Marquee';
 import NavBar from './components/NavBar';
@@ -50,10 +50,6 @@ let state = {
 
 function App() {
   const [pages, setPages] = useState(state.pages);
-
-  // useEffect(() => {
-  //   console.log(pages[1])
-  // })
 
   return (
     <BrowserRouter>
