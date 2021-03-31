@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-
 import Headline from './Headline';
+import SubHead from './SubHead';
 
 
 function Marquee({info}) {
@@ -12,8 +12,8 @@ function Marquee({info}) {
     return (
         <div>
             <Headline head={info.headline} />
-            {/* <SubHead />
-            <CallToAction /> */}
+            <SubHead sub={info.subhead} />
+            {/* <CallToAction /> */}
         </div>
     )
 }

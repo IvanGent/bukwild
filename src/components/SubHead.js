@@ -1,8 +1,10 @@
 import React from 'react';
 
-function SubHead() {
+function SubHead({sub}) {
     return (
-        <div></div>
+        <div>
+            {sub}
+        </div>
     )
 }
 
