@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 
+
 function App() {
   return (
     <BrowserRouter>
