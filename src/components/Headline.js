@@ -14,6 +14,7 @@ function Headline({head}) {
         lineHeight: '1',
         letterSpacing: '-2.2px',
         color: 'white',
+        paddingLeft: '7.938rem'
     }
 
     return <div style={style}>{head}</div>
