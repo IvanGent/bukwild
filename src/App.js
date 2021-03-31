@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       Hello, Is this working???
       <Route path='/industries'>
-
+        
       </Route>
       <Route path='/services'>
 
