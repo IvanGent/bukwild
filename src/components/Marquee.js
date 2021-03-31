@@ -3,15 +3,15 @@ import React, { useEffect } from 'react';
 import Headline from './Headline';
 
 
-function Marquee() {
+function Marquee({info}) {
 
     useEffect(() =>{
-        console.log();
+        console.log(info);
     })
 
     return (
         <div>
-            <Headline />
+            <Headline head={info.headline} />
             {/* <SubHead />
             <CallToAction /> */}
         </div>

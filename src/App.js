@@ -51,6 +51,10 @@ let state = {
 function App() {
   const [pages, setPages] = useState(state.pages);
 
+  // useEffect(() => {
+  //   console.log(pages[1])
+  // })
+
   return (
     <BrowserRouter>
       <NavBar />
@@ -59,10 +63,10 @@ function App() {
         <Marquee info={pages[0].blocks[0]} />
       </Route>
       <Route path='/services'>
-        <Marquee info={pages[1].blocks[1]} />
+        <Marquee info={pages[1].blocks[0]} />
       </Route>
       <Route path='/aboutUs'>
-        <Marquee info={pages[2].blocks[2]} />
+        <Marquee info={pages[2].blocks[0]} />
       </Route>
     </BrowserRouter>
   );
