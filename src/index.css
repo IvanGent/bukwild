@@ -11,14 +11,22 @@ body {
 @media screen and (max-width: 900px) {
   .HeadAndSub {
     display: flex;
-    flex-wrap: wrap;
-    /* background-color: red; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-content: center;
     padding-top: 5rem;
   }
   
   .callToAction {
     flex-direction: column;
-    
+  }
+
+  .navBar {
+    flex-direction: column;
+  }
+
+  .contactButton {
+    align-self: center;
   }
 
 }

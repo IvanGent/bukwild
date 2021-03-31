@@ -25,16 +25,12 @@ function Marquee({info}) {
     }
 
     const headingStyle = {
-        // position: 'absolute',
-        // top: 'rem',
-        // marginRight: '4rem',
         height: '100%',
         display: 'flex',
         width: '100%',
         justifySelf: 'center',
         alignSelf: 'center',
         justifyContent: 'space-around',
-        // justifyContent: 'space-between',
         alignItems: 'center',
     }
 

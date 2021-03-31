@@ -2,9 +2,12 @@ import React from 'react';
 import Menu from './Menu';
 
 const NavBarStyle = { 
-    // position: 'absolute',
-    // display: 'flex',
-    // minWidth: '100vw',
+    position: 'absolute',
+    display: 'flex',
+    minWidth: '100vw',
+    height: '15rem',
+    justifyContent: 'space-between',
+    // margin: '0 8.125rem',
     // maxWidth: '1440px',
     // padding: '0 8.125rem',
     // margin: '1.179rem 8.125rem 0 8.125rem',
@@ -14,9 +17,9 @@ const NavBarStyle = {
 }
 
 const imageStyle = {
-    position: 'absolute',
-    left: '8.104rem',
-    top: '1.179rem',
+    // position: 'absolute',
+    marginLeft: '8.104rem',
+    marginTop: '1.179rem',
     width: '4.728rem',
     height: '2.363rem',
     marginBottom: '0.958rem',
@@ -24,7 +27,7 @@ const imageStyle = {
 }
 
 const ContactButton = {
-    position: 'absolute',
+    // position: 'absolute',
     width: '8.625rem',
     height: '1.125rem',
     padding: '0.75rem 0.063rem 0.75rem 0',
@@ -38,18 +41,18 @@ const ContactButton = {
     letterSpacing: 'normal',
     textAlign: 'center',
     color: 'white',
-    right: '8.125rem',
-    top: '1.563rem',
+    marginRight: '8.125rem',
+    marginTop: '1.563rem',
 }
 
 function NavBar() {
     return (
-        <div style={NavBarStyle}>
+        <div className='navBar' style={NavBarStyle}>
             <div>
                 <img style={imageStyle} src={'./images/abc_logo.svg'} alt='Logo' />
                 <Menu />
             </div>
-            <div style={ContactButton}>Contact Us</div>
+            <div className='contactButton' style={ContactButton}>Contact Us</div>
         </div>
     )
 }
