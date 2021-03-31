@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from './Menu';
 
+// Style for the entire Nav Bar
 const NavBarStyle = { 
     position: 'absolute',
     display: 'flex',
@@ -9,6 +10,7 @@ const NavBarStyle = {
     justifyContent: 'space-between',
 }
 
+// Style for the Logo
 const imageStyle = {
     marginLeft: '8.104rem',
     marginTop: '1.179rem',
@@ -18,6 +20,7 @@ const imageStyle = {
     objectFit: 'contain',
 }
 
+// Style for the Contact Us Button
 const ContactButton = {
     width: '8.625rem',
     height: '1.125rem',

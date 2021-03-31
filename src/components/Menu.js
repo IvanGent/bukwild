@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+// Style for the Menu
 const style = {
     position: 'absolute',
     left: '8.125rem',
@@ -24,6 +25,7 @@ const activeLink = {
     color: '#ffc004'
 }
 
+// Style for the links
 const links = {
     color: 'white',
     textDecoration: 'none',

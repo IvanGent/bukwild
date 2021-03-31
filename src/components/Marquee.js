@@ -3,35 +3,32 @@ import Headline from './Headline';
 import SubHead from './SubHead';
 import CallToAction from './CallToAction';
 
+// Style for the content
+const contentStyle = {
+    height: '100vh',
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+}
+
+// Style for the headline and subhead section, mainly to align it with flexbox
+const headingStyle = {
+    height: '100%',
+    display: 'flex',
+    width: '100%',
+    justifySelf: 'center',
+    alignSelf: 'center',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+}
 
 function Marquee({info}) {
-
+    
+    // Style that contains the background image
     const style = {
         backgroundImage: `url(/images/${info.background})`,
         minHeight: '100vh',
-        // display: 'flex',
-    }
-
-    const contentStyle = {
-        // maxWidth: '1440px',
-        // backgroundColor: 'red',
-        height: '100vh',
-        width: '100%',
-        display: 'flex',
-        // flexDirection: 'column-reverse',
-        flexDirection: 'column',
-        // justifyContent: 'center'
-        justifyContent: 'space-between',
-    }
-
-    const headingStyle = {
-        height: '100%',
-        display: 'flex',
-        width: '100%',
-        justifySelf: 'center',
-        alignSelf: 'center',
-        justifyContent: 'space-around',
-        alignItems: 'center',
     }
 
     return (

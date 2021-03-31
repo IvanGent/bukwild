@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Marquee from './components/Marquee';
 import NavBar from './components/NavBar';
@@ -49,11 +49,9 @@ let pages = {
 
 
 function App() {
+  // usually destructor the array ex: [state, setState] but figured since I won't
+  // be setting state again do it this way. 
   const state = useState(pages.pages);
-
-  useEffect(() => {
-	  console.log(state);
-  })
 
   return (
     <BrowserRouter>
