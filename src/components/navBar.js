@@ -4,8 +4,12 @@ import Menu from './Menu';
 const NavBarStyle = { 
     position: 'absolute',
     minWidth: '100vw',
+    maxWidth: '1440px',
     padding: '0 8.125rem',
-    marginTop: '1.179rem'
+    // margin: '1.179rem 8.125rem 0 8.125rem',
+    marginTop: '1.179rem',
+    display: 'flex',
+    justifyContent: 'space-between'
 }
 
 const imageStyle = {
@@ -34,8 +38,10 @@ const ContactButton = {
 function NavBar() {
     return (
         <div style={NavBarStyle}>
-            <img style={imageStyle} src={'./images/abc_logo.svg'} alt='Logo' />
-            <Menu />
+            <div>
+                <img style={imageStyle} src={'./images/abc_logo.svg'} alt='Logo' />
+                <Menu />
+            </div>
             <div style={ContactButton}>Contact Us</div>
         </div>
     )
