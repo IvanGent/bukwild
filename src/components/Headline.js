@@ -3,9 +3,10 @@ import React from 'react';
 function Headline({head}) {
 
     const style = {
-        position: 'absolute',
-        left: '7.938rem',
-        top: '19.5rem',
+        // position: 'absolute',
+        // left: '7.938rem',
+        // top: '19.5rem',
+        paddingLeft: '7.938rem',
         width: '38.25rem',
         height: '17rem',
         margin: '10.125rem 10.688rem 2.938rem 0',

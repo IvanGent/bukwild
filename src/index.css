@@ -2,3 +2,11 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 900px) {
+  .HeadAndSub {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+  }
+}

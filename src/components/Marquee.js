@@ -8,24 +8,32 @@ function Marquee({info}) {
 
     const style = {
         backgroundImage: `url(/images/${info.background})`,
-        // backgroundPosition: 'left top',
-        // paddingTop: '19.5rem',
         minHeight: '100vh',
+        // display: 'flex',
     }
 
     const contentStyle = {
-        // padding: '0 8.125rem'
-        maxWidth: '1440px'
+        // maxWidth: '1440px'
     }
 
     const headingStyle = {
-        display: 'flex'
+        position: 'absolute',
+        top: '17rem',
+        display: 'flex',
+        width: '100%',
+        // paddingTop: '14%',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        // maxWidth: '1440px',
+        // padding: ' 0 8.125rem',
+        // margin: '0 8.125rem',
+        // backgroundColor: 'red',
     }
 
     return (
         <div style={style}>
             <div style={contentStyle}>
-                <div style={headingStyle}>
+                <div className='HeadAndSub' style={headingStyle}>
                     <Headline head={info.headline} />
                     <SubHead sub={info.subhead} />
                 </div>
