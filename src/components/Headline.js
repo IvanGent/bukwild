@@ -7,7 +7,7 @@ function Headline({head}) {
         // left: '7.938rem',
         // top: '19.5rem',
         // paddingLeft: '7.938rem',
-        width: '38.25rem',
+        // width: '38.25rem',
         // height: '17rem',
         // margin: '10.125rem 10.688rem 2.938rem 0',
         fontFamily: 'HelveticaNeue',
@@ -18,7 +18,7 @@ function Headline({head}) {
         lineHeight: '1',
         letterSpacing: '-2.2px',
         color: 'white',
-        paddingTop: '1.438rem'
+        // paddingTop: '1.438rem'
     }
 
     return <div style={style}>{head}</div>

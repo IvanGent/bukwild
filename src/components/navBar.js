@@ -7,17 +7,9 @@ const NavBarStyle = {
     minWidth: '100vw',
     height: '15rem',
     justifyContent: 'space-between',
-    // margin: '0 8.125rem',
-    // maxWidth: '1440px',
-    // padding: '0 8.125rem',
-    // margin: '1.179rem 8.125rem 0 8.125rem',
-    // marginTop: '1.179rem',
-    // display: 'flex',
-    // justifyContent: 'space-between'
 }
 
 const imageStyle = {
-    // position: 'absolute',
     marginLeft: '8.104rem',
     marginTop: '1.179rem',
     width: '4.728rem',
@@ -27,7 +19,6 @@ const imageStyle = {
 }
 
 const ContactButton = {
-    // position: 'absolute',
     width: '8.625rem',
     height: '1.125rem',
     padding: '0.75rem 0.063rem 0.75rem 0',

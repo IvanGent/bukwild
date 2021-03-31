@@ -6,7 +6,7 @@ function SubHead({sub}) {
         // position: 'absolute',
         // right: '10.625rem',
         // top: '20.938rem',
-        paddingRight: '5.625rem',
+        // paddingRight: '5.625rem',
         width: '22.5rem',
         // height: '14.188rem',
         // margin: '11.563rem 2.5rem 4.313rem 10.688rem',

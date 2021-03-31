@@ -11,10 +11,9 @@ body {
 @media screen and (max-width: 900px) {
   .HeadAndSub {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     align-content: center;
-    padding-top: 5rem;
+    padding-top: 10rem;
   }
   
   .callToAction {
@@ -27,6 +26,7 @@ body {
 
   .contactButton {
     align-self: center;
+    margin: 0;
   }
 
 }
