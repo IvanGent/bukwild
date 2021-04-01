@@ -10,6 +10,7 @@ const style = {
     lineHeight: '1',
     letterSpacing: '-2.2px',
     color: 'white',
+    width: '38.25rem'
 }
 
 function Headline({head}) {
