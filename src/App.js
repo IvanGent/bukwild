@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Marquee from './components/Marquee';
-import NavBar from './components/NavBar';
+import NavBar from './components/navBar'
 
 let pages = {
 	"pages": [
