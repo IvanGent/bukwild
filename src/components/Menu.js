@@ -34,7 +34,7 @@ const links = {
 function Menu () {
     return (
         <div style={style}>
-            <NavLink to='/industries' style={links} activeStyle={activeLink}>Industries</NavLink>
+            <NavLink to='/' exact={true} style={links} activeStyle={activeLink}>Industries</NavLink>
             <NavLink to='/services' style={links} activeStyle={activeLink}>Services</NavLink>
             <NavLink to='/aboutUs' style={links} activeStyle={activeLink}>About Us</NavLink>
         </div>

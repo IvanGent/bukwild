@@ -56,7 +56,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <Route path='/industries'>
+      <Route path='/' exact={true}>
         <Marquee info={state[0][0].blocks[0]} />
       </Route>
       <Route path='/services'>
